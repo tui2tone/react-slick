@@ -660,7 +660,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).children[spec.slideIndex + spec.slidesToShow + 1];
 	      }
 
-	      targetLeft = targetSlide ? targetSlide.offsetLeft * -1 : 0;
 	      targetLeft += (spec.listWidth - targetSlide.offsetWidth) / 2;
 	    }
 	  }
